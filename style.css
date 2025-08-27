@@ -14,10 +14,16 @@ header{
     
 }
 .presentation{
+    margin: 5% 17%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10vh;
+}
+.presentation__content{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 body {
     font-family: 'Nata Sans', sans-serif;
@@ -30,14 +36,10 @@ body {
     color: aqua;
 }
 .minha-foto{
-    border: 2px solid #C3D350;
-    margin-bottom: 1vh;
+    border: 1px solid #C3D350;
     width: 500px;
     height:auto;
-}
-.presentation__content{
-    width: 700px;
-    height: auto;
+    margin-bottom: 1%;
 }
 .presentation__title{
     font-size: 36px;
